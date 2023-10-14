@@ -15,4 +15,6 @@
 3. [Управление состоянием и условный рендеринг в React](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react/3.%20state-app.md)
 4. [Изучение `useEffect` и имитация асинхронных запросов в React](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react/4.%20useEffect-app.md)
 
-1. 
+1. [Введение в Webpack](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/webpack-react/1.%20webpack-welcome.md)
+2. [Обработка и оптимизация изображений с Webpack](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/webpack-react/2.%20webpack-loaders.md)
+3. [Создание React-приложения с помощью Webpack](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/webpack-react/2.%20webpack-loaders.md)
