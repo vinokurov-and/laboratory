@@ -19,3 +19,4 @@
 1. [Введение в Webpack](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/webpack-react/1.%20webpack-welcome.md)
 2. [Обработка и оптимизация изображений с Webpack](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/webpack-react/2.%20webpack-loaders.md)
 3. [Создание React-приложения с помощью Webpack](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/webpack-react/3.%20webpack-react.md)
+4. [Code Splitting в Webpack и Lazy Loading в React](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/webpack-react/4.%20webpack-code-splitting.md)
