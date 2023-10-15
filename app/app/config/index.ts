@@ -7,7 +7,8 @@ const disciplinesFolders = getFolders(resolve(__dirname, PATH));
 
 const LABELS = {
     react: 'Современные языки программирования',
-    'react-native': 'Мобильные приложения'
+    'react-native': 'Мобильные приложения',
+    'webpack-react': 'Администрирование и разработка Web-приложений (Webpack)'
 }
 
 type DisciplinesType = Record<string, {label: string, labs: {
