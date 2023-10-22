@@ -8,6 +8,7 @@
 
 ## Мобильные приложения
 1. [Создание первого React-Native-приложения](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react-native/1.%20my-first-app.md)
+2. [Работа с компонентами View, Text и Button в React Native](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react-native/2.%20base-components-react-native.md)
 
 ## Администрирование и разработка Web-приложений (Без Webpack)
 1. [Создание первого React-приложения](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react/1.%20my-first-app.md)
