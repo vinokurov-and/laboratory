@@ -1,7 +1,7 @@
 import React from "react";
-
+import Link from "next/link";
 import { DISCIPLINES } from "@/app/config";
-import Task from "../Task/Task";
+
 const folders = DISCIPLINES;
 
 export default async function MainPg() {
@@ -13,11 +13,11 @@ export default async function MainPg() {
             <h1>{folders[item].label}</h1>
             <div>
               {Object.keys(folders[item].labs).map((lab) => {
-                let task = folders[item].labs[lab].url;
+                let task = "/task/"+folders[item].labs[lab].url;
                 let text = folders[item].labs[lab].file;
                 return (
                   <div>
-                    <Task labLink={task} text={text} />
+                    <Link href={task}>{text}</Link>
                   </div>
                 );
               })}
