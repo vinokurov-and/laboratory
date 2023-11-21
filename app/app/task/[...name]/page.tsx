@@ -1,24 +1,13 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import { readFileSync } from "fs";
+import getTask from "@/app/utils/getTask/getTask";
 
-const getTask = (taskLink) => {
-  let task = readFileSync(taskLink, "utf8");
 
-  return task;
-};
+
 
 export default async function task({ params: { name } }) {
-  let pathLab = name.join("//");
-  pathLab = pathLab.split("%3A").join(":");
-  pathLab = pathLab.split("%20").join(" ");
-  let task;
-  try {
-    task = getTask(pathLab);
-  } catch {
-    pathLab = "//" + pathLab;
-    task = getTask(pathLab);
-  }
+    let task = getTask(name);
   return (
     <main>
       <div>
