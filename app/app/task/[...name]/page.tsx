@@ -12,16 +12,31 @@ export default async function task({ params: { name } }) {
   let pathLab = name.join("//");
   pathLab = pathLab.split("%3A").join(":");
   pathLab = pathLab.split("%20").join(" ");
-  let task = getTask(pathLab);
 
-  return (
-    <main>
-      <div>
-        <Link href="/">ВЕРНУТЬСЯ НА ГЛАВНУЮ</Link>
-      </div>
-      <div>
-        <ReactMarkdown children={task} />
-      </div>
-    </main>
-  );
+  try {
+    let task = getTask(pathLab);
+    return (
+        <main>
+          <div>
+            <Link href="/">ВЕРНУТЬСЯ НА ГЛАВНУЮ</Link>
+          </div>
+          <div>
+            <ReactMarkdown children={task} />
+          </div>
+        </main>
+      );
+  } catch {
+    pathLab = "//" + pathLab;
+    let task = getTask(pathLab);
+    return (
+        <main>
+          <div>
+            <Link href="/">ВЕРНУТЬСЯ НА ГЛАВНУЮ</Link>
+          </div>
+          <div>
+            <ReactMarkdown children={task} />
+          </div>
+        </main>
+      );
+  }
 }
