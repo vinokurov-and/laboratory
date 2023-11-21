@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 
-const getTask = (name) => {
+const getTask = (name: string[]) => {
   let pathLab = name.join("//");
   pathLab = pathLab.split("%3A").join(":");
   pathLab = pathLab.split("%20").join(" ");

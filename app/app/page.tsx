@@ -5,7 +5,6 @@ import MainPg from "./components/Main/main";
 const folders = DISCIPLINES;
 
 export default async function Home() {
-  console.log("Server or client");
 
   return (
     <main>

@@ -3,11 +3,14 @@ import ReactMarkdown from "react-markdown";
 import { readFileSync } from "fs";
 import getTask from "@/app/utils/getTask/getTask";
 
+type TaskProps = {
+  params: {
+    name: string[];
+  };
+};
 
-
-
-export default async function task({ params: { name } }) {
-    let task = getTask(name);
+export default async function Task({ params: { name } }: TaskProps) {
+  let task = getTask(name);
   return (
     <main>
       <div>
