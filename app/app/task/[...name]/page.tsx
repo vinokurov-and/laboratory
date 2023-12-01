@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
-import { readFileSync } from "fs";
+
 import getTask from "@/app/utils/getTask/getTask";
 
 type TaskProps = {
