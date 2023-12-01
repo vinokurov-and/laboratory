@@ -16,11 +16,11 @@ export default async function MainPg() {
             <div>
               {Object.keys(folders[item].labs).map((lab) => {
                 let task = "/Task/" + folders[item].labs[lab].url;
-                // let text = folders[item].labs[lab].file;
                 let text = readFileSync(folders[item].labs[lab].url, 'utf-8');
                 let labNameStart = text.indexOf("#");
                 let labNameEnd = text.indexOf('\n', labNameStart);
                 text = text.substring(labNameStart, labNameEnd);
+                text = text.split("#").join("-");
 
                 return (
                   <div key={lab}>
