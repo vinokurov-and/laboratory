@@ -1,14 +1,14 @@
-import { Markdown } from './components/Markdown/Markdown'
-import { DISCIPLINES } from './config/index';
+import { Markdown } from "./components/Markdown/Markdown";
+import { DISCIPLINES } from "./config/index";
+import getTask from "./utils/getTask/getTask";
+import MainPg from "./components/Main/main";
 const folders = DISCIPLINES;
 
-export default function Home() {
-  // console.log(MD);
+export default async function Home() {
+
   return (
     <main>
-      {Object.keys(folders).map(item => {
-        return <p>{folders[item].label}</p>
-      })}
+      <MainPg />
     </main>
-  )
+  );
 }
