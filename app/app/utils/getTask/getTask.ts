@@ -1,5 +1,4 @@
 import { readFileSync } from 'fs'
-import editTask from '../editTask/editTask'
 
 const getTask = (name: string[]) => {
 	let pathLab = name.join('//')
