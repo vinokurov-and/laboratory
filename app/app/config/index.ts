@@ -1,9 +1,10 @@
-import { resolve } from 'path'
+import path from 'path'
 import { getFolders } from '../utils/getFolders/getFolders'
+import { existsSync } from 'fs'
 
 const PATH = '../../../../programming-language/javascript/'
 
-const disciplinesFolders = getFolders(resolve(__dirname, PATH))
+const disciplinesFolders = getFolders(path.resolve(__dirname, PATH))
 
 const LABELS = {
 	react: 'Современные языки программирования',
@@ -19,13 +20,25 @@ type DisciplinesType = Record<
 >[]
 
 export const DISCIPLINES = disciplinesFolders.reduce((prevValue, curVal) => {
-	const lab = getFolders(resolve(__dirname, PATH + curVal)).reduce(
+	const lab = getFolders(path.resolve(__dirname, PATH + curVal)).reduce(
 		(prevLab, curLab, indexLab) => {
+
+			const getUrl = (split: string) => path.resolve(__dirname, [PATH + curVal, curLab].join(split));
+
+			const windowsUri = getUrl('\\');
+			let url;
+
+			if (existsSync(windowsUri)) {
+				url = windowsUri;
+			} else {
+				url = getUrl('/');
+			}
+
 			return {
 				...prevLab,
 				[indexLab + 1]: {
 					file: curLab,
-					url: resolve(__dirname, PATH + curVal + '\\' + curLab),
+					url,
 				},
 			}
 		},
