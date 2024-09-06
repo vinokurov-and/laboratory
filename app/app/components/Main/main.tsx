@@ -7,13 +7,13 @@ const folders = DISCIPLINES
 export default async function MainPg() {
 	return (
 		<div>
-			{Object.keys(folders).map((item: string) => {
+			{Object.keys(folders).map((item) => {
 				return (
 					<div key={item}>
 						<h1>{folders[item].label}</h1>
 						<div>
 							{Object.keys(folders[item].labs).map(lab => {
-								const task = '/Task/' + folders[item].labs[lab].url
+								const task = '/task/' + folders[item].labs[lab].url
 								let text = readFileSync(folders[item].labs[lab].url, 'utf-8')
 								const labNameStart = text.indexOf('#')
 								const labNameEnd = text.indexOf('\n', labNameStart)
