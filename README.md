@@ -1,5 +1,8 @@
 # laboratory
 
+## Облачные технологии
+1. [Github Actions](https://github.com/vinokurov-and/laboratory/blob/main/github/l/1.%20github-actions.md)
+
 ## Современные языки программирования
 1. [Создание первого React-приложения](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react/1.%20my-first-app.md)
 2. [Знакомство с JSX](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react/2.%20introducing-to-jsx.md)
