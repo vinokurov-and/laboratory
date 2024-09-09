@@ -2,6 +2,8 @@
 
 ## Облачные технологии
 1. [Github Actions](https://github.com/vinokurov-and/laboratory/blob/main/github/l/1.%20github-actions.md)
+**Лабораторные работы**
+1. [Создание Github репозитория и проекта на nest.js](https://github.com/vinokurov-and/laboratory/blob/main/github/p/1.%20github-create.md)
 
 ## Современные языки программирования
 1. [Создание первого React-приложения](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react/1.%20my-first-app.md)
