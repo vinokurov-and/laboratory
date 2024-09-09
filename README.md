@@ -2,6 +2,7 @@
 
 ## Облачные технологии
 1. [Github Actions](https://github.com/vinokurov-and/laboratory/blob/main/github/l/1.%20github-actions.md)
+   
 **Лабораторные работы**
 1. [Создание Github репозитория и проекта на nest.js](https://github.com/vinokurov-and/laboratory/blob/main/github/p/1.%20github-create.md)
 
