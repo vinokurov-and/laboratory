@@ -1,7 +1,7 @@
 # laboratory
 
 ## Облачные технологии
-1. [Github Actions](https://github.com/vinokurov-and/laboratory/blob/main/github/l/1.%20github-actions.md)
+1. [GitHub, как облачная платформа](https://github.com/vinokurov-and/laboratory/blob/main/github/l/1.%20github-actions.md)
 2. [Nest.js](https://github.com/vinokurov-and/laboratory/blob/main/github/l/2.%20next.js-install.md)
    
 **Лабораторные работы**
