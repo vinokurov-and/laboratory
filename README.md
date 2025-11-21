@@ -2,10 +2,10 @@
 
 ## Облачные технологии
 1. [GitHub, как облачная платформа](https://github.com/vinokurov-and/laboratory/blob/main/github/l/1.%20github-actions.md)
-2. [Nest.js](https://github.com/vinokurov-and/laboratory/blob/main/github/l/2.%20next.js-install.md)
+2. [Автоматизированное тестирование в облаке — GitHub Actions как защита кода]([https://github.com/vinokurov-and/laboratory/blob/main/github/l/2.%20next.js-install.md](https://github.com/vinokurov-and/laboratory/blob/main/github/l/2.%20github-actions.md))
    
 **Лабораторные работы**
-1. [Создание Github репозитория и проекта на nest.js](https://github.com/vinokurov-and/laboratory/blob/main/github/p/1.%20github-create.md)
+1. [Разверни React-приложение на GitHub Pages](https://github.com/vinokurov-and/laboratory/blob/main/github/p/1.%20github-create.md)
 
 ## Современные языки программирования
 1. [Создание первого React-приложения](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react/1.%20my-first-app.md)
