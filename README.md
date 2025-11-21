@@ -2,7 +2,7 @@
 
 ## Облачные технологии
 1. [GitHub, как облачная платформа](https://github.com/vinokurov-and/laboratory/blob/main/github/l/1.%20github-actions.md)
-2. [Автоматизированное тестирование в облаке — GitHub Actions как защита кода]([https://github.com/vinokurov-and/laboratory/blob/main/github/l/2.%20next.js-install.md](https://github.com/vinokurov-and/laboratory/blob/main/github/l/2.%20github-actions.md))
+2. [Автоматизированное тестирование в облаке — GitHub Actions как защита кода](https://github.com/vinokurov-and/laboratory/blob/main/github/l/2.%20github-actions.md)
    
 **Лабораторные работы**
 1. [Разверни React-приложение на GitHub Pages](https://github.com/vinokurov-and/laboratory/blob/main/github/p/1.%20github-create.md)
