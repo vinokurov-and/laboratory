@@ -6,6 +6,7 @@
    
 **Лабораторные работы**
 1. [Разверни React-приложение на GitHub Pages](https://github.com/vinokurov-and/laboratory/blob/main/github/p/1.%20github-create.md)
+2. [Автоматическое тестирование и защита ветки main через GitHub Actions](https://github.com/vinokurov-and/laboratory/blob/main/github/p/2.%20tests.md)
 
 ## Современные языки программирования
 1. [Создание первого React-приложения](https://github.com/vinokurov-and/laboratory/blob/main/programming-language/javascript/react/1.%20my-first-app.md)
